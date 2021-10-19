@@ -1,4 +1,4 @@
-# pspdfkit-instantJson
+# pspdfkit-instantjson
 
 To run this demo, clone the repository and then, within it, run:
 
