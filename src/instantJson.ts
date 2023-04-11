@@ -1,8 +1,8 @@
-export const instantJsonWithId = {
+export const instantJson = {
   format: "https://pspdfkit.com/instant-json/v1",
   pdfId: {
     changing: "bkwtMFYaQRClFPnanzwEaw==",
-    permanent: "dODcGjkiRfKMhIAxP9gLVQ=="
+    permanent: "dODcGjkiRfKMhIAxP9gLVQ==",
   },
   annotations: [
     {
@@ -12,7 +12,7 @@ export const instantJsonWithId = {
       pageIndex: 0,
       bbox: [
         252.2028916810364, 16.26397705078125, 57.29099984854602,
-        11.256020294830371
+        11.256020294830371,
       ],
       opacity: 1,
       createdAt: "2021-07-07T16:56:50.843Z",
@@ -24,12 +24,12 @@ export const instantJsonWithId = {
       rects: [
         [
           252.2028916810364, 16.26397705078125, 57.29099984854604,
-          11.256020294830371
-        ]
+          11.256020294830371,
+        ],
       ],
       color: "#fcee7c",
-      blendMode: "multiply"
-    }
+      blendMode: "multiply",
+    },
   ],
   bookmarks: [
     {
@@ -39,7 +39,7 @@ export const instantJsonWithId = {
       type: "pspdfkit/bookmark",
       name: "My Bookmark",
       sortKey: null,
-      action: { type: "goTo", pageIndex: 0 }
-    }
-  ]
-}
+      action: { type: "goTo", pageIndex: 0 },
+    },
+  ],
+};
