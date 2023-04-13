@@ -24,6 +24,7 @@ function App() {
         {pdfInstance && (
           <button
             onClick={async () => {
+              await pdfInstance.save()
               const buffer = await pdfInstance.exportPDF({
                 flatten: true,
                 incremental: false,
